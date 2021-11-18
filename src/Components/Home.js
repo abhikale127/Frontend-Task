@@ -35,7 +35,7 @@ function Home() {
     <div>
       <Banner />
       <div>
-        <div className="Consulting">
+        <div className="Consulting" id="Consulting">
           <h1>C.A.S Consulting Ltd</h1>
           <p className="Consulting_p">
             {" "}
@@ -43,9 +43,9 @@ function Home() {
             consultancy office established in 2012 specializing in Electrical,
             Mechanical and Energy Building Services.{" "}
           </p>
-          <p2> &gt; About us</p2>
+         <p2> &gt; About us</p2> 
         </div>
-        <div className="Engineering_Sectors">
+        <div className="Engineering_Sectors" id="Engineering_Sectors">
           <h1>Engineering Sectors</h1>
           <div className="Sector_Cards">
             <Card
@@ -74,7 +74,7 @@ function Home() {
           </div>
           <p2>&gt; Engineering Sectors</p2>
         </div>
-        <div className="projects">
+        <div className="projects" id="projects">
           <h1 className="project_text">Our Projects</h1>
           <div className="carousel_project">
             <Index />
@@ -101,7 +101,7 @@ function Home() {
           </div>
           <p2 className="project_text_P"> &gt; Our Projects</p2>
         </div>
-        <div className="Our_Clients">
+        <div className="Our_Clients" id="Our_Clients">
           <h1 className="project_text">Our Clients</h1>
           <div className="clients_Images_line">
             <img className="clients-Image" src={image2} alt="clients" />

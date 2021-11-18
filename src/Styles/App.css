@@ -9,6 +9,9 @@
   flex-wrap: wrap;
  
 }
+.Hamberger{
+  display: none;
+}
 .Nav_btn {
   background: none;
   color: inherit;
@@ -262,5 +265,8 @@ margin: 2rem 0;
   position: absolute;
   right: 2rem;
   top: 2rem;
+}
+.Hamberger{
+  display: block;
 }
 }
