@@ -1,0 +1,266 @@
+/************************** Navbar *****************************************/
+.Navbar {
+  background: transparent;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+ 
+}
+.Nav_btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 0.8rem;
+  color: white;
+  opacity: 0.5;
+}
+.Nav_btn:hover {
+   
+    color: #FFFFFF;
+    opacity: 1;
+}
+li{
+  display: flex;
+  flex-direction: column;
+}
+.arrow{
+  width: 18px;
+  margin-left: 1rem;
+}
+.Navbar_Buttons {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 32rem;
+}
+.Logo-Image{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.Navbar-panel{
+    margin-right: 5rem;
+}
+
+
+/************************** Banner ********************************/
+.Banner{
+    background: url(../Assets/Banner.png);
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+  
+    position: relative;
+    top: -5rem;
+    mask-repeat: no-repeat;
+}
+.Banner-Heading{
+    width: 80%;
+    margin-top: 13rem;
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+}
+/**************** Consulting ********************/
+.Consulting{
+  padding: 0 16rem;
+  padding-bottom: 4rem;
+  padding-left: 6rem;
+}
+.Consulting_p{
+  margin: 3rem 0;
+}
+
+/* *************Sectors ***************************/
+.Card_Image{
+  width:100%;
+}
+.Sector_Cards{
+  display: flex;
+}
+.Card{
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.Engineering_Sectors{
+  padding: 2rem 6rem;
+ background: #F8F8F8;
+}
+.projects{
+  background: #F8F8F8;
+ padding: 8rem 0;
+}
+.copic{
+  width: 100%;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.copic:hover {
+  -webkit-filter: brightness(50%);
+ }
+ .Carousel_Image:hover .middle {
+  opacity: 1;
+}
+.project_text{
+  margin: 3rem 0;
+  margin-left: 4rem;
+}
+.project_text_P{
+  position: relative;
+  top: 3rem;
+  margin-left: 6rem;
+}
+/* Our clients */
+.Our_Clients{
+  padding: 4rem 0;
+}
+.clients-Image{
+  height: 4rem;
+}
+.clients_Images_line{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+/* Footer */
+.footer{
+  background: #F8F8F8;
+  padding: 4rem;
+}
+.social-Image{
+  margin-right: 1rem
+}
+.Footer_contact{
+  display: flex;
+  justify-content: space-between;
+}
+.adress{
+  display: flex;
+}
+.mobile_no{
+  margin-left: 1rem;
+}
+.project_Images{
+  display: none;
+}
+.Banner-Heading_mobile{
+ display: none;
+}
+.burger-Image{
+ display: none;
+}
+@media screen and (max-width: 800px) {
+  .Navbar_Buttons {
+    display: none;
+  }
+  
+.Logo-Image {
+  display: none;
+}
+.Consulting {
+  padding: 0 3rem;
+  padding-bottom: 1rem;
+ 
+}
+.carousel_project{
+  display: none;
+}
+.Engineering_Sectors {
+  padding: 0rem 1rem;
+  background: #F8F8F8;
+  padding-left: 3rem;
+}
+.projects {
+  background: #F8F8F8;
+  padding: 4rem 0;
+}
+.Sector_Cards {
+  display: flex;
+  flex-direction: column;
+}
+.project_text {
+  margin: 2rem 0;
+  margin-left: 2rem;
+}
+.footer {
+  background: #F8F8F8;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+.Footer_contact {
+  flex-direction: column;
+}
+.clients-Image {
+height: 4rem;
+margin: 5px;
+}
+.Consulting_p {
+margin: 2rem 0;
+}
+.project_text_P {
+  position: relative;
+  top: 3rem;
+  margin-left: 3rem;
+}
+.project_Images{
+  display: block;
+}
+.Banner-Heading{
+  display: none;
+}
+.Banner-Heading_mobile{
+  display: block;
+  width: 80%;
+  margin-top: 13rem;
+}
+.burger-Image{
+  display: block;
+  width: 1rem;
+  margin-right: 2rem;
+}
+.Nav_mbl{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 32rem;
+  flex-direction: column;
+  margin-top: 9rem;
+}
+.burger_mbl{
+  width: 1rem;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+}
